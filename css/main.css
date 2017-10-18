@@ -1,0 +1,608 @@
+/***
+公用类
+ */
+.comWidth {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftArea {
+    float: left;
+}
+
+.rightArea {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/*
+topBar
+ */
+.topBar {
+    height: 31px;
+    background-color: #F7F7F7;
+    line-height: 31px;
+}
+
+.topBar a:hover {
+    color: slateblue;
+}
+
+.collection {
+    background: url("../images/icon/collection.png") left center no-repeat;
+    padding-left: 19px;
+    font-weight: bold;
+}
+
+/**
+logoBar
+ */
+.logoBar {
+    height: 85px;
+    background-color: #1d7ad9;
+}
+
+/**
+logo
+ */
+.logo {
+    padding-left: 41px;
+    padding-top: 13px;
+}
+
+/**
+search部分
+ */
+
+.search_box {
+    width: 430px;
+    padding-top: 23px;
+    padding-left: 185px;
+}
+
+.search_text {
+    width: 350px;
+    height: 35px;
+    line-height: 35px \9;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.search_btn {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #ff8c00;
+    color: #fff;
+}
+
+/**
+购物车
+ */
+.shopCar {
+    width: 145px;
+    height: 35px;
+    background-color: #ff8c00;
+    margin-top: 23px;
+    font: 14px/35px "Microsoft YaHei", "微软雅黑";
+    color: #fff;
+}
+
+.shopText {
+    width: 87px;
+    height: 100%;
+    /*font-size: 14px;*/
+    /*font-family: "Microsoft YaHei", "微软雅黑";*/
+    /*line-height:35px;*/
+    /*缩写*/
+    /*font: 14px/35px "Microsoft YaHei", "微软雅黑";*/
+    border-right: #e27a00 solid 1px;
+    background: url("../images/icon/carIcon.png") 10px center no-repeat;
+    /*首行缩进*/
+    text-indent: 40px;
+}
+
+.shopNum {
+    width: 27px;
+    height: 35px;
+    border-left: #ff9c01 solid 1px;
+    background: url("../images/icon/sj.png") 33px center no-repeat;
+    text-align: right;
+    padding-right: 29px;
+}
+
+/**
+导航
+ */
+.navBox {
+    height: 35px;
+    background-color: #1369c0;
+    color: #fff;
+}
+
+.shopClass h3, .nav {
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+
+.shopClass {
+    width: 190px;
+    position: relative;
+}
+
+.shopClass h3 {
+    line-height: 35px; /* 注意 */
+    text-align: center;
+}
+
+.shopClass i {
+    width: 11px;
+    height: 7px;
+    margin-left: 11px;
+    overflow: hidden;
+    display: inline-block;
+    background: url("../images/icon/nav-arrow.png") left center no-repeat;
+}
+
+.nav {
+    line-height: 35px;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0 35px;
+    color: #fff;
+    height: 35px;
+}
+
+.nav .active {
+    background-color: #4593fd;
+}
+
+/**
+商品弹出列表
+ */
+.shopClass_show {
+    background-color: #4593fd;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 100%;
+}
+
+.shopClass_item {
+    padding: 13px 10px;
+    border-bottom: #3487f2 solid 1px;
+    border-top: #5aa1fe solid 1px;
+}
+
+.shopClass_item dt {
+    height: 22px;
+    background: url("../images/icon/menu-arrow.png") right center no-repeat;
+}
+
+.shopClass_item .b {
+    font: 14px/1 "Microsoft YaHei", "微软雅黑";
+}
+
+.shopClass_item a {
+    color: #fff;
+}
+
+.shopClass_item a:hover {
+    text-decoration: underline;
+}
+
+.shopClass_item .aLink {
+    width: 48px;
+    height: 20px;
+    background: url("../images/icon/circle-bg.png") left center no-repeat;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+/**
+shopClass_item active 的状态
+ */
+.shopClass_active {
+    background-color: #fff;
+    border-left: #4593fd solid 1px;
+}
+
+/* 去掉三角*/
+.shopClass_active dt {
+    background: none;
+}
+
+.shopClass_active a {
+    color: #000;
+}
+
+.shopClass_active .aLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+/**
+------------
+ */
+
+/**
+弹出的商品分类详情
+ */
+.shopClass_list {
+    width: 568px;
+    border: #ccc solid 1px;
+    position: absolute;
+    top: 35px;
+    left: 190px;
+}
+
+.shopClass_cont {
+    padding: 2px 20px;
+}
+
+.shopList_item {
+    padding: 10px 0;
+    border-bottom: #ccc solid 1px;
+}
+
+.shopList_item dt {
+    color: #4b87d9;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+}
+
+.shopList_item dd {
+    padding-left: 68px;
+    line-height: 24px;
+    margin-top: -24px;
+}
+
+.shopList_item dd a {
+    margin-left: 12px;
+    display: inline-block;
+}
+
+.shopList_links {
+    padding: 15px 0;
+}
+
+.shopList_links a {
+    color: #fff;
+    background-color: #2785e6;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0 14px 0 8px;
+    margin-right: 10px;
+}
+
+.shopList_links a span {
+    width: 11px;
+    height: 7px;
+    display: inline-block;
+    background: url("../images/icon/menu-arrow.png") left center no-repeat;
+    margin-left: 7px;
+}
+
+/**
+左侧的产品列表
+ */
+.products {
+    width: 189px;
+}
+
+.products .leftNav {
+    background-color: #f3f3f3;
+    border: #d7d7d7 solid 1px;
+}
+
+.products .leftNav .nav_title {
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    border-bottom: #d7d7d7 solid 1px;
+}
+
+.products .leftNav .nav_cont {
+    padding: 4px 18px;
+    border-bottom: #d7d7d7 1px dotted;
+}
+
+.products .leftNav .nav_cont h3 {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.products .leftNav .nav_cont .navCont_list {
+    line-height: 25px;
+}
+
+.products .leftNav .nav_cont .navCont_list li{
+    width: 50%;
+    float: left;
+}
+
+.products .leftNav .nav_cont .navCont_list li a:hover {
+    text-decoration: underline;
+    color: #ff7700;
+}
+/**
+轮播图
+ */
+.bannerBox {
+    margin-bottom: 30px;
+}
+
+.banner {
+}
+
+/*注意要把banner_bar做成公用元素*/
+
+.banner_bar {
+    background: orange;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_bar .imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner_bar .imgBox li {
+    float: left;
+}
+
+.banner_bar .imgBox li img {
+    display: block;
+}
+
+/* 公共样式 end*/
+
+/*当前bannerBox的 banner_bar的样式*/
+.bannerBox .banner_bar {
+    width: 810px;
+    height: 329px;
+}
+
+.bannerBox .banner_bar .imgBox {
+    width: 1620px;
+    height: 329px;
+}
+
+.bannerBox .banner_bar .imgBox li img {
+    width: 810px;
+    height: 329px;
+}
+
+/*轮播按钮 这个也是公共样式*/
+.banner_bar .imgNum {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    text-align: center;
+}
+
+.banner_bar .imgNum a {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0 3px;
+}
+
+.banner_bar .imgNum a.active {
+    background-color: #ff7700;
+}
+
+/**
+商品标题
+ */
+.shopTit {
+    height: 44px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    line-height: 44px;
+    margin-bottom: 10px;
+}
+
+.shopTit .icon {
+    width: 44px;
+    height: 44px;
+    background: url("../images/icon/title-icon.png") left center no-repeat;
+    float: left;
+}
+
+.shopTit h3 {
+    font-size: 24px;
+    float: left;
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+.shopTit .more {
+    float: right;
+    font-family: "宋体";
+}
+
+.shopTit .more:hover {
+    text-decoration: underline;
+}
+
+/**
+商品陈列
+ */
+.shopList {
+    margin-bottom: 20px;
+}
+
+.shopList .leftArea {
+    width: 190px;
+}
+
+/*当前shopList  banner_bar的样式*/
+.shopList .banner_bar {
+    width: 190px;
+    height: 400px;
+}
+
+.shopList .banner_bar .imgBox {
+    width: 380px;
+    height: 400px;
+}
+
+.shopList .banner_bar .imgBox li img {
+    width: 190px;
+    height: 400px;
+}
+
+/* 商品陈列右边 */
+.shopList .rightArea {
+    width: 808px;
+    border-right: #999 solid 1px;
+    border-top: #999 solid 1px;
+    overflow: hidden;
+    border-bottom: #ff7700 solid 3px;
+}
+
+/* 上半部分 */
+
+.shopList_top {
+    margin-right: -4px;
+}
+
+.shopList_top .shop_item {
+    width: 202px;
+    height: 279px;
+    border-right: #999 solid 1px;
+    border-bottom: #999 solid 1px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    text-align: center;
+    float: left;
+}
+
+.shop_item .shop_img {
+    height: 218px;
+}
+
+.shop_item .shop_img a {
+    width: 100%;
+    height: 218px;
+    display: block;
+    text-align: center;
+}
+
+.shop_item .shop_img img {
+    width: 80%;
+    height: 80%;
+    padding-left: 10%;
+    padding-top: 10%;
+    display: block;
+}
+
+.shop_item h3 {
+    font-size: 16px;
+}
+
+.shop_item p {
+    font-size: 14px;
+    color: #ff7300;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+/* 下半部分 */
+.shopList_bottom {
+    margin-right: -4px;
+}
+
+.shopItem_sm {
+    width: 202px;
+    border-right: #999 solid 1px;
+    height: 106px;
+    padding-top: 10px;
+    float: left;
+}
+
+.shopItem_smImg {
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    float: left;
+}
+
+.shopItem_smImg img {
+    width: 95px;
+    height: 95px;
+}
+
+.shopItem_text {
+    width: 100px;
+    padding-top: 28px;
+    padding-left: 5px;
+    float: left;
+}
+
+.shopItem_text p {
+    color: #ff7300;
+    font-weight: bolder;
+}
+
+.shopItem_text h3 {
+    font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    color: #181818;
+    line-height: 30px;
+}
+
+/**
+底部区
+ */
+.footer {
+    padding: 50px 0;
+    background-color: #d4d4d4;
+    text-align: center;
+    line-height: 24px;
+}
+
+.footer p a {
+    margin: 0 2px;
+    color: #000;
+}
+
+.footer p a:hover {
+    color: #f60;
+}
+
+.footer_img {
+    margin-top: 30px;
+}
+
+.footer_img img {
+    margin: 0 12px;
+}
+
