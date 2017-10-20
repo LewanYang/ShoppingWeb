@@ -337,7 +337,7 @@ shopClass_item active 的状态
     line-height: 25px;
 }
 
-.products .leftNav .nav_cont .navCont_list li{
+.products .leftNav .nav_cont .navCont_list li {
     width: 50%;
     float: left;
 }
@@ -346,6 +346,7 @@ shopClass_item active 的状态
     text-decoration: underline;
     color: #ff7700;
 }
+
 /**
 轮播图
  */
@@ -389,7 +390,7 @@ shopClass_item active 的状态
 
 .bannerBox .banner_bar .imgBox {
     width: 1620px;
-    height: 329px;
+    height: 329px;;
 }
 
 .bannerBox .banner_bar .imgBox li img {
@@ -577,6 +578,76 @@ shopClass_item active 的状态
     font-weight: normal;
     color: #181818;
     line-height: 30px;
+}
+
+/**
+产品分类页的右下产品列表
+ */
+
+.product-recommend {
+    width: 800px;
+    float: right;
+    padding: 5px 5px;
+}
+
+.product-recommend .product-title {
+    border-bottom: #cccccc solid 3px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.product-recommend .product-title h3 {
+    width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: #1d7ad9 solid 3px;
+    text-indent: 9px;
+}
+
+.product-recommend-item {
+    width: 25%;
+    float: left;
+}
+
+.product-recommend-item .product-recommend-item-cont {
+    padding: 10px;
+}
+
+.item-cont-img {
+    text-align: center;
+    height: 170px;
+}
+
+.item-cont-img img {
+    height: 170px;
+}
+
+.item-descript {
+    line-height: 20px;
+    padding: 0 16px;
+}
+
+.item-descript a {
+    color: #000;
+}
+
+.item-descript a:hover {
+    color: #ff7700;
+}
+
+.item-cont-money {
+    color: #d4105a;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+.stars {
+    width: 13px;
+    height: 12px;
+    background: url("../images/icon/collection.png") left center no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 1px;
 }
 
 /**
