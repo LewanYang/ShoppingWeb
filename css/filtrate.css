@@ -1,0 +1,154 @@
+.products .leftNav .nav_cont .vertical {
+    line-height: 25px;
+}
+
+.products .leftNav .nav_cont .vertical li {
+    width: auto;
+    padding-left: 8px;
+}
+
+.products .leftNav .nav_cont .vertical li a:hover {
+    text-decoration: underline;
+    color: #ff7700;
+}
+
+/**
+右侧筛选栏
+ */
+.filtrate {
+    width: 800px;
+    padding: 0 5px;
+}
+
+.screening {
+    padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.screening dt {
+    line-height: 32px;
+    width: 74px;
+    float: left;
+    text-align: center;
+    margin-right: 42px;
+}
+
+.screening dd.limit {
+    line-height: 32px;
+    width: 55px;
+    float: left;
+}
+
+.screening .active {
+    background-color: #1d7ad9;
+    color: #ffffff;
+}
+
+.screening a {
+    padding: 2px;
+}
+
+.screening .screening-list {
+    float: left;
+    line-height: 32px;
+    width: 626px;
+}
+
+.screening .screening-list li {
+    float: left;
+    width: 20%;
+}
+
+.screening .screening-more {
+    border: 1px solid #cccccc;
+    height: 23px;
+    line-height: 23px;
+    float: left;
+    margin-top: 2px;
+    background: url("../images/icon/sj.png") 97% center no-repeat;
+    padding-right: 25px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+/**
+送货选项栏
+ */
+.addInfo {
+    width: 800px;
+    margin: 20px 4px;
+    height: 31px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    line-height: 31px;
+}
+
+.addInfo .addInfo-left {
+    margin-left: 10px;
+    float: left;
+}
+
+.addInfo .addInfo-right {
+    float: right;
+    padding-right: 10px;
+}
+
+.addInfo .addInfo-right .checkbox {
+    vertical-align: middle;
+}
+
+.addInfo .addInfo-right em {
+    font-style: normal;
+    color: orangered;
+    font-weight: bold;
+}
+
+/**
+搜索结果产品列表
+ */
+.filtrate-list .product-recommend-item {
+    width: 33.3%;
+}
+
+.product-recommend-item-cont .addCar {
+    margin-left: 16px;
+    display: inline-block;
+    border: 1px solid cadetblue;
+}
+
+/**
+分页按钮
+ */
+.page {
+    margin-top: 20px;
+    width: 800px;
+    padding: 0 5px;
+    float: right;
+    text-align: center;
+}
+
+.page a {
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 0 12px;
+    margin: 0 2px;
+}
+
+.page .span-text {
+    margin-left: 10px;
+}
+
+.page .input-text {
+    width: 30px;
+    border: 1px solid #ccc;
+}
+
+.page button{
+    width: 50px;
+    background-color: white;
+}
+
+
+
